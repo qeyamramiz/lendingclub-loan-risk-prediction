@@ -102,13 +102,15 @@ LendingClub project/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-github-repository-url>
-cd LendingClub-project
+git clone https://github.com/qeyamramiz/lendingclub-loan-risk-prediction.git
+cd lendingclub-loan-risk-prediction
+```
 
 ### 2. Create a virtual environment
 
 ```bash
 python -m venv .venv
+```
 
 ### 3. Activate the virtual environment
 
@@ -116,18 +118,22 @@ python -m venv .venv
 
 ```bash
 .venv\Scripts\activate
+```
 
 ### 4. Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 ### 5. Run the notebooks
 
 Open the notebooks in Jupyter Notebook or VS code:
-01_data_cleaning.ipynb
-02_eda.ipynb
-03_ml_preprocessing.ipynb
-04_model_testing.ipynb
+
+- `01_data_cleaning.ipynb`
+- `02_eda.ipynb`
+- `03_ml_preprocessing.ipynb`
+- `04_model_testing.ipynb`
 
 ## Prediction Pipeline
 
@@ -149,7 +155,7 @@ Example output:
 Risk probability: 20.15%
 Prediction: 0
 Result: Low-risk Loan
-
+```
 
 ## Saved Model Files
 
